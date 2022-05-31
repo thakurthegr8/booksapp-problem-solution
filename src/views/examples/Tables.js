@@ -73,7 +73,9 @@ const Tables = () => {
                 <tbody>
                   {status === "pending" && (
                     <tr>
-                      <Spinner></Spinner>
+                      <td>
+                        <Spinner></Spinner>
+                      </td>
                     </tr>
                   )}
                   {userDataList.length > 0 &&
